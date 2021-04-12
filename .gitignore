@@ -1,0 +1,17 @@
+## .gitignore
+
+## Private
+*.secret
+.*/
+
+## Bad for git
+
+## Logs
+
+## Ephemeral
+
+# Clutter
+.vscode/
+*.~*
+*.pyc
+
