@@ -23,12 +23,12 @@ git clone TARSPLIT_REPONAME
 ## Usage
 Standard invokation pattern:
 ```
-$ tarsplit-single.sh src "$SRC_PATH" dest "$DEST_PATH" vol_file "$VOL_FILE" kb_limit "$KB_LIMIT"
+$ tarsplit-single.sh -s "$SRC_PATH" -d "$DEST_PATH" -v "$VOL_FILE" -k "$KB_LIMIT"
 ```
 
 Example invokation:
 ```
-$ tarsplit-single.sh src "${HOME}/some_dir_of_files" dest "/media/somehdd/my-split-archive.tar" vol_file "volume_number.txt" kb_limit "10485760"
+$ tarsplit-single.sh -s "${HOME}/some_dir_of_files" -d "/media/somehdd/my-split-archive.tar" -v "volume_number.txt" -k "10485760"
 ```
 
 
